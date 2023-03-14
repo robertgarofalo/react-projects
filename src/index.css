@@ -1,0 +1,15 @@
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.main {
+    /* background-color: aqua; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

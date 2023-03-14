@@ -1,0 +1,48 @@
+.container {
+width: 60%;
+}
+
+.container h2 {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.carouselContainer {
+    position: relative;
+}
+
+.imageContainer {
+    min-width: 50%;
+    height: 60vh;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.leftArrow, .rightArrow {
+    position: absolute;
+    top: 45%;
+    font-size: 38px;
+    z-index: 90;
+}
+
+.leftArrow:hover, .rightArrow:hover {
+    cursor: pointer;
+}
+
+.leftArrow {
+    left: 5%;
+}
+
+.rightArrow {
+    right: 5%;
+}
+
+.imageIndicator {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -6,13 +6,22 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 
-// components
+// layout
 import Main from './routes/Main';
+
+// pages
+import Carousel from './pages/carousel/Carousel';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />
+    element: <Main />,
+    children: [
+      {
+        path: "/carousel",
+        element: <Carousel />
+      }
+    ]
   }
 ])
 
